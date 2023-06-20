@@ -1,0 +1,15 @@
+@font-face {
+  font-family: "PressStart2P";
+  src: url("../../assets/font/PressStart2P-Regular.ttf");
+}
+
+.guess-page {
+  font-family: "PressStart2P", "Bitstream Vera Serif", serif;
+}
+.line {
+  &::before {
+    content: "";
+    width: 100vw;
+    background: red;
+  }
+}
