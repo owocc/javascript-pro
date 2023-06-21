@@ -7,9 +7,15 @@
   font-family: "PressStart2P", "Bitstream Vera Serif", serif;
 }
 .line {
+  width: 100%;
+  position: relative;
   &::before {
     content: "";
     width: 100vw;
-    background: red;
+    height: 15px;
+    position: absolute;
+    top: calc(15vmin / 2);
   }
 }
+
+
